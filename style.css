@@ -37,8 +37,10 @@ img {
 
 .logo-details {
   color: #f0f9ff;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bold;
+  margin-left: 30px;
+  margin-top: 30px;
 }
 
 .sidebar {
@@ -47,9 +49,30 @@ img {
 
 .link {
   text-decoration: none;
-  font-weight: bold;
-  font-size: 1.15rem;
+  font-weight: 400;
+  font-size: 1rem;
   color: #f0f9ff;
+  margin-left: 30px;
+}
+
+span.link-name {
+  margin-left: 10px;
+}
+
+span.logo-name {
+  margin-left: 5px;
+}
+
+.nav-container {
+  margin-top: 20px;
+}
+
+li {
+  padding-top: 10px;
+}
+
+.settings-container {
+  margin-top: 40px;
 }
 
 input {
@@ -107,6 +130,7 @@ img {
 
 .article .card {
   height: 200px;
+  background: white;
 }
 
 .title,
@@ -122,4 +146,28 @@ img {
 
 h4 {
   font-size: 0.9rem;
+}
+
+/* grid styling */
+.page-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr 4fr;
+}
+
+.sidebar {
+  grid-column: 1/2;
+  grid-row: 1/3;
+
+}
+
+.welcome-container {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.dashboard-container {
+  background: #e0f2fe;
+  grid-column: 2/3;
+  grid-row: 2/3;
 }
