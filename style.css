@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   font-size: 16px;
-  font-family: 'Roboto', Arial, sans-serif;
+  font-family: "Roboto", Arial, sans-serif;
 }
 
 *,
@@ -33,4 +33,93 @@ ul {
 img {
   max-width: 100%;
   height: auto;
+}
+
+.logo-details {
+  color: #f0f9ff;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.sidebar {
+  background: #0ea5e9;
+}
+
+.link {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.15rem;
+  color: #f0f9ff;
+}
+
+input {
+  background: #e0f2fe;
+  border-radius: 5px;
+  border-style: none;
+  width: 400px;
+  height: 30px;
+}
+
+img {
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  width: 50px;
+  height: 50px;
+}
+
+.user-name {
+  font-weight: bold;
+  font-size: 1.15rem;
+}
+
+.welcome-message-top {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.welcome-message-bottom {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.button {
+  background-color: #0ea5e9;
+  color: #f0f9ff;
+  border-radius: 10px;
+  border-style: none;
+  width: 100px;
+  height: 40px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button:active {
+  transform: translateY(2px);
+  background-color: #42b4e9;
+}
+
+#title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.article .card {
+  height: 200px;
+}
+
+.title,
+.announcement-title {
+  font-weight: 600;
+}
+
+.content,
+.announcement-content,
+.user-bio {
+  color: #71717a;
+}
+
+h4 {
+  font-size: 0.9rem;
 }
