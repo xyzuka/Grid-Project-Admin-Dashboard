@@ -31,10 +31,16 @@ img {
   font-weight: bold;
   margin-left: 30px;
   margin-top: 30px;
+  display: flex;
+  align-items: center;
 }
 
 .sidebar {
   background: #0ea5e9;
+}
+
+.nav-links {
+  padding: 0;
 }
 
 .link {
@@ -43,10 +49,12 @@ img {
   font-size: 1rem;
   color: #f0f9ff;
   margin-left: 30px;
+  display: flex;
+  align-items: center;
 }
 
 .link-name {
-  margin-left: 10px;
+  margin-left: 15px;
 }
 
 .link-name:hover {
@@ -59,7 +67,7 @@ img {
 }
 
 span.logo-name {
-  margin-left: 5px;
+  margin-left: 10px;
 }
 
 .nav-container {
@@ -68,6 +76,7 @@ span.logo-name {
 
 li {
   padding-top: 10px;
+  margin-left: 15px;
 }
 
 .settings-container {
@@ -80,7 +89,7 @@ input {
   border-style: none;
   width: 400px;
   height: 30px;
-  margin-left: 5px;
+  margin-left: 10px;
 }
 
 img {
@@ -156,7 +165,6 @@ h4 {
 .page-grid-container {
   display: grid;
   grid-template-columns: 1fr 4fr;
-  grid-template-rows: 1fr 4fr;
 }
 
 .sidebar {
@@ -170,7 +178,8 @@ h4 {
   grid-row: 1/2;
   display: grid;
   grid-template-rows: 1fr 1fr;
-  box-shadow: 1px 4px 5px #888888;
+  box-shadow: 1px 4px 5px #bebebe;
+  border-radius: 10px;
 }
 
 .dashboard-container {
@@ -184,7 +193,7 @@ h4 {
 .top-section {
   display: flex;
   justify-content: space-between;
-  height: 100px;
+  height: 80px;
   align-items: center;
 }
 
@@ -221,7 +230,8 @@ span.welcome-message-bottom {
 .profile-picture:hover,
 .main-user-name:hover,
 .link-name:hover,
-.clickable-users:hover {
+.clickable-users:hover,
+.article:hover {
   cursor: pointer;
 }
 
@@ -229,6 +239,15 @@ span.welcome-message-bottom {
 .main-user-name:active,
 .clickable-users:active {
   transform: translateY(5px);
+}
+
+.card1:active,
+.card2:active,
+.card3:active,
+.card4:active,
+.card5:active,
+.card6:active {
+  transform: translateX(5px);
 }
 
 .link-name:active {
@@ -253,6 +272,7 @@ span.welcome-message-bottom {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 90px;
 }
 
 .article {
@@ -260,8 +280,7 @@ span.welcome-message-bottom {
   grid-row: 1/2;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  grid-template-rows: repeat(2, 1fr);
-  gap: 15px;
+  grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .card {
@@ -321,4 +340,8 @@ svg:hover:not(.unclickable-svg){
 
 svg:active:not(.unclickable-svg) {
   transform: translateY(5px);
+}
+
+hr {
+  color: #e4e4e4;
 }
