@@ -10,19 +10,9 @@ html {
   box-sizing: inherit;
 }
 
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ol,
-ul {
+body {
   margin: 0;
   padding: 0;
-  font-weight: normal;
 }
 
 ol,
@@ -92,7 +82,7 @@ img {
   height: 50px;
 }
 
-.user-name {
+.main-user-name {
   font-weight: bold;
   font-size: 1.15rem;
 }
@@ -130,19 +120,18 @@ img {
 
 #title {
   font-size: 1.25rem;
-  font-weight: bold;
+  font-weight: 500;
   margin-left: 20px;
   margin-top: 30px;
 }
 
 .article .card {
-  height: 200px;
   background: white;
 }
 
 .title,
 .announcement-title {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .content,
@@ -254,4 +243,23 @@ span.welcome-message-bottom {
   padding: 20px;
   margin: 20px;
   box-shadow: 1px 4px 5px #888888;
+}
+
+.announcement-child,
+.user-row {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 1px 4px 5px #888888;
+}
+
+.user-name {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  padding-bottom: 10px;
+}
+
+.trending-parent {
+  margin-top: 50px;
 }
