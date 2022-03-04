@@ -7,4 +7,4 @@
 <ul><a href='https://unsplash.com/photos/yHhtT7-A1Xg'>Andrea Rico</a></ul>
 <ul><a href='https://unsplash.com/photos/q2q5CdLuWnI'>Usman Yousaf</a></ul>
 
-<a href='https://xyzuka.github.io/Grid-Project-Admin-Dashboard/'>Live Demo</a>
+<a href='https://xyzuka.github.io/Grid-Project-Admin-Dashboard/'>👉🏻 Live Demo</a>
